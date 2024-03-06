@@ -1,7 +1,7 @@
 {
     "name": "amasty-extended/store-credit",
     "description": "APIs related to amasty store credit.",
-    "version": "1.0.5",
+    "version": "1.0.1",
     "type": "magento2-module",
     "require": {
         "amasty/store-credit": "1.2.3"
