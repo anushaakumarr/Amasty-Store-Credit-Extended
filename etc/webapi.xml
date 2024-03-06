@@ -1,0 +1,8 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Webapi:etc/webapi.xsd">
+    <route url="/V1/storecredit/addorsubtract" method="POST">
+        <service class="Amasty\StoreCredit\Api\ManageCustomerStoreCreditInterface" method="addOrSubtractStoreCredit"/>
+        <resources>
+            <resource ref="Magento_Backend::admin"/>
+        </resources>
+    </route>
+</routes>

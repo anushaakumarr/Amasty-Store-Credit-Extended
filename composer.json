@@ -1,0 +1,26 @@
+{
+    "name": "amasty-extended/store-credit",
+    "description": "APIs related to amasty store credit.",
+    "version": "1.0.5",
+    "type": "magento2-module",
+    "require": {
+        "amasty/store-credit": "1.2.3"
+    },
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+          "name": "Anusha Kumaraswamy",
+          "email": "anushaakumarr@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AmastyExtended\\StoreCredit\\": ""
+        }
+    }
+}
